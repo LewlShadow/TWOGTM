@@ -1,0 +1,2 @@
+# TWOGTM
+LightNovel
