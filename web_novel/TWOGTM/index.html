@@ -21,7 +21,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
+  <link href="css/mycss.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
 
@@ -61,7 +61,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url(./pic/vol1/pic0.jpg);">
+  <header class="masthead" style="background-image: url('./pic/vol1/pic0.jpg');" type="button" data-toggle="modal" data-target="#examplemodal">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -72,6 +72,16 @@
         </div>
       </div>
     </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="examplemodal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="article">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <img src="./pic/vol1/pic0.jpg" class="img-fluid">
+  </div>
+</div>
   </header>
 
   <!-- Main Content -->
